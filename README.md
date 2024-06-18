@@ -8,25 +8,26 @@ Este repositorio contiene los enunciados de los ejercicios correspondientes al T
 
 1. **Forkea este repositorio:** Haz clic en el botón de "Fork" en la esquina superior derecha de la página para crear una copia de este repositorio en tu cuenta de GitHub.
 2. **Clona el repositorio forked:** En tu máquina local, abre una terminal y ejecuta el siguiente comando:
-    ```bash
-    git clone https://github.com/FabioDrizZt/Ejercitacion-JS-Estructuras-Condicionales.git
-    ```    
+
+   ```bash
+   git clone https://github.com/FabioDrizZt/Ejercitacion-JS-Estructuras-Condicionales.git
+   ```
 
 3. **Navega al directorio del repositorio clonado:**
-    ```bash
-    cd trabajo-practico-02
-    ```
+
+   ```bash
+   cd Ejercitacion-JS-Estructuras-Condicionales
+   ```
 
 4. **Resuelve los ejercicios:** Abre cada uno de los archivos `.js` y escribe el código necesario para resolver cada ejercicio siguiendo los enunciados proporcionados en los comentarios.
 
 5. **Commit y push tus cambios:**
-    ```bash
-    git add .
-    git commit -m "Resueltos los ejercicios del Trabajo Práctico N° 02"
-    git push origin main
-    ```
 
-6. **Crea un Pull Request:** Regresa al repositorio original en GitHub y crea un Pull Request para que tu instructor pueda revisar tu trabajo.
+   ```bash
+   git add .
+   git commit -m "Resueltos los ejercicios del Trabajo Práctico N° 02"
+   git push origin main
+   ```
 
 ### Enunciados
 
