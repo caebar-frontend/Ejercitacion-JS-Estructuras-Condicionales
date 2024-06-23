@@ -10,7 +10,7 @@ Este repositorio contiene los enunciados de los ejercicios correspondientes al T
 2. **Clona el repositorio forked:** En tu máquina local, abre una terminal y ejecuta el siguiente comando:
 
    ```bash
-   git clone https://github.com/FabioDrizZt/Ejercitacion-JS-Estructuras-Condicionales.git
+   git clone https://github.com/TU_USUARIO/Ejercitacion-JS-Estructuras-Condicionales.git
    ```
 
 3. **Navega al directorio del repositorio clonado:**
