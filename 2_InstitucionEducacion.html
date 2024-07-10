@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Institucion Educacion</title>
+    <script src="2_InstitucionEducacion.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+  </head>
+  <body>
+    <!-- Autocomplet x VScode-->
+    <!--
+         <h1>Institución Educación</h1>
+         <p>Nombre: Universidad Tecnológica Nacional (UTN)</p>
+         <p>Sede: Buenos Aires</p>
+         <p>Año de fundación: 1920</p>
+         <p>Dirección: Av. Libertador Boulevard, 1600</p>
+         <p>Teléfono: (011) 456-7890</p>
+         <p>Correo electrónico: universidad@utn.edu.ar</p>
+         <p>Horarios de atención: Martes a Viernes de 9:00 a 21:00 hs</p>
+         <p>Número de estudiantes: 150,000</p>
+        -->
+    <!-- Autocomplet x VSCode-->
+    <p>
+      -------------------------------------------------------------------------------------------
+    </p>
+
+    <h1>Institución Educativa: UNTREF</h1>
+    <p>Sede: Ciudad Autonoma de Bs. As.</p>
+    <p>Dirección: Maipu 71</p>
+    <p>Teléfono: (011) 3987-0609 / 0615</p>
+    <p>Correo electrónico: universidad@untref.edu.ar</p>
+    <p>Horarios de atención: Martes a Viernes de 9:00 a 21:00 hs</p>
+    <p>Número de estudiantes: 45,000</p>
+
+    <p>
+      ---------------------------------------------------------------------------------------------
+    </p>
+   <div style="background-color: burlywood;">
+    <p>
+      <label>Apellido: <input type="text" id="nombre" placeholder="Nombre" /></label>
+    </p>
+    <p>
+      <label>Nombre:<input type="text" id="apellido" placeholder="Apellido" /></label>
+    </p>
+    <p>
+      <label
+        >D.N.I. N°: <input type="number" id="dni" placeholder="Documento de Identidad"
+      /></label>
+    </p>
+    <p>
+      <label
+        >Tipo de Carrera:
+        <select name="carrera" id="tipodecarrera" required>
+            <option value="diurna">Diurna</option>
+            <option value="vespertina">Vespertina</option>
+            
+        </select>
+        </label>
+    </p>
+    <p>
+      <label
+        >Nota Obtenida:
+        <input id="notaobtenida" value="" type="number" step="0.1" placeholder="7.50" min="0" max="10"
+      /></label>
+    </p>
+    <p>
+      <button onclick="ProcesamientoDatosIngresados()">Procesar Datos</button>
+    </p>
+  </div>
+  </body>
+</html>

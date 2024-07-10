@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head>
+        <meta charset = "utf-8" />
+        <title>Número Positivo / Negativo -- Par / Impar</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <script src="1_NumeroPositivoNegativo.js"></script>
+        <style>
+          body {
+            background-color: rgb(161, 241, 135);
+          }
+
+         </style>
+
+    </head>
+    <body>
+        <h1>Número Positivo o Negativo</h1>
+        <label for="numero">Ingrese un número: </label>
+        <input onclick="document.getElementById('numero').value=''" type="text" id="numero" name="numero" required>
+        <button id="button" type="button" onclick="onButtonClick()">Analizo</button>
+        <button id="botonborrar" type="button" onclick="BorrarDatos()">Borrar Datos</button>
+      
+    </body>
+</html>
