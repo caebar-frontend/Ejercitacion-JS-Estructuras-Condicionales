@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tipo Triangulo</title>
+        <script src="4_TipoTriangulo.js"></script> 
+    </head>
+    <body>
+        <h1>Triangulos</h1>
+        <h3>¿Cuál clase de figura triangular es?</h3>
+        <h4>Ejemplos: ------------------------------------------------------------------------------------------------------------------</h4>
+        
+
+        <figure style="display: inline;"><img width="200px" src="https://s1.significados.com/foto/a9b3-sin-titulo-2-35_bg.jpg?class=article"></figure>
+
+        <figure style="display: inline;"><img width="200px" src="https://www.neurochispas.com/wp-content/uploads/2021/03/triangulo-isosceles-acutangulo.png"/></figure>
+        
+        <figure style="display: inline;"><img width="150px" src="https://www.neurochispas.com/wp-content/uploads/2021/03/angulos-de-un-triangulo-rectangulo-isosceles.png"/></figure>
+        
+        <figure style="display: inline;"><img width="270px" src="https://t1.uc.ltmcdn.com/es/posts/3/4/3/como_calcular_los_angulos_de_un_triangulo_1343_paso_4_600.jpg"/></figure>
+        <h4>----------------------------------------------------------------------------------------------------------------------------</h4>
+        
+        <br>
+        <br>
+       <label>Describir en números los ángulos de la figura en cada casilla, para saber si es Isósceles, Escaleno, o Equilatero</label>
+       <br>
+        <label>Angulo 1:<input id="Angulo1" type="number" max="90" min="1" step="1" value="0" onfocus="document.getElementById('Angulo1').value='0'"/></label>
+        <label>Angulo 2:<input  id="Angulo2" type="number" max="90" min="1" step="1" value="0" onfocus="document.getElementById('Angulo2').value='0'"/></label>
+        <label>Angulo 3:<input id="Angulo3" type="number" max="90" min="1" step="1" value="0" onfocus="document.getElementById('Angulo3').value='0'"/></label>
+        <br>
+        <p><button name="boton" id="botonn" type="button" onclick="VerTipoTriangulo()">Presionar</button></p>
+        <br>
+        <label id="lblconsola" style="font-size: 25px; background-color: black; color: rgb(255, 238, 0);">* * * * * * INFORMACION DE CONSOLA * * * * * *</label>
+    </body>
+</html>
