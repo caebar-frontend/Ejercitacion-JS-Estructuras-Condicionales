@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="Viewport" content="width=device-width, initial-scale=1.0" />
+        <title>5 Fecha Nombre Mes</title>
+        <script src="5_FechaNombreMes.js"></script>
+    </head>
+    <body>
+         <h1 style="background-color: burlywood;">¡Elegir una Fecha!</h1>
+         <br>
+         <label>------- <input type = "date" id="Aaaa_Mm_Dd" name="fecha" min="1500-01-01" max="4000-12-31" value="2024-07-01" />--------</label>
+         <br>
+         <br>
+         <label id="Etiqueta_Fecha_Uno" style="background-color: rgb(205, 231, 75); font-size:20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--- Información de la fecha elegida --- &nbsp;&nbsp;&nbsp;&nbsp;</label>
+         <br>
+         <br>
+         <button type="button" onclick="coger_fecha()">Click Aquí</button>
+         <h4 style="background-color: burlywood;">-     -     -     -     -     -     - </h4>
+         <br>
+         <br>
+         <h1 style="background-color: burlywood;">¡Indicar Día, Mes, Año!</h1>
+         <br>
+         <label>Día: <input type="number" placeholder="13" min="1" max="99" id="dia"/></label>
+         <br>
+         <br>
+         <label>Mes:
+         <select name="mes" id="listado">
+            <option value="Enero">Enero</option>
+            <option value="Febrero">Febrero</option>
+            <option value="Marzo">Marzo</option>
+            <option value="Abril">Abril</option>
+            <option value="Mayo">Mayo</option>
+            <option value="Junio">Junio</option>
+            <option value="Julio">Julio</option>
+            <option value="Agosto">Agosto</option>
+            <option value="Septiembre">Septiembre</option>
+            <option value="Octubre">Octubre</option>
+            <option value="Noviembre">Noviembre</option>
+            <option value="Diciembre">Diciembre</option>
+         </select>
+         </label>
+         &nbsp;&nbsp;&nbsp;&nbsp;<label>Mes en formato número: <input id="mes2" type="number" min="0" max="99" placeholder="1"></inpute></label>
+         <br>
+         <br>
+         <label>Año: <input id="ano" type="number" placeholder="2024" min="1900" max="3000" name="ano"/></label>
+         <br>
+         <br>
+         <label id="Etiqueta_Tipo_Consola_Demo" style="background-color:rgb(252, 132, 166); font-size: 20px;">     ------       ¡Info Consola!, día, mes, año    -----     </label>
+         <br>
+         <br>
+         <br>
+         <button onclick="Tomar_Fecha()">Procesar Fecha Completa</button>
+         <br>
+         <br>
+         <h4 style="background-color: burlywood;">-     -     -     -     -     -     - </h4>
+         
+
+    </body>
+</html>
