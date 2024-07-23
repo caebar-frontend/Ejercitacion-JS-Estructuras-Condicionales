@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="Viewport" content="Width=device-width, initial-scale=1.0" />
+        <title>Costo-Internación</title>
+        <script src="7_CostoInternacion.js"></script>
+    </head>
+
+    <body>
+        <header style="background-color: rgb(126, 246, 238);">
+            <h1>Costo Internación</h1>
+            <h4>Presupuesto diario, mensual y anual</h4>
+        </header>
+        <br><br>
+        <body>
+           <label style="background-color: burlywood;">Tipo de Afección:</label> 
+               <select id="afeccion">
+                <option value=""></option>
+                <option value="125">1 - Dolencia</option>
+                <option value="116">2 - Morbo</option>
+                <option value="120">3 - Padecimiento</option>
+                <option value="132">4 - Indisposición</option>
+                <option value="138">5 - Plaga</option>
+                </select>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <label style="background-color: burlywood;">Fechas:</label> 
+                <select id="dia">
+                    <option value=""></option>
+                 <option value="1">1. día</option>
+                 <option value="2">2. días</option>
+                 <option value="3">3. días</option>
+                 <option value="4">4. días</option>
+                 <option value="5">5. días</option>
+                 <option value="6">6. días</option>
+                 <option value="7">7. días</option>
+                 <option value="8">8. días</option>
+                 <option value="9">9. días</option>
+                 <option value="10">10. días</option>
+                 <option value="11">11. día</option>
+                 <option value="12">12. días</option>
+                 <option value="13">13. días</option>
+                 <option value="14">14. días</option>
+                 <option value="15">15. días</option>
+                 <option value="16">16. días</option>
+                 <option value="17">17. días</option>
+                 <option value="18">18. días</option>
+                 <option value="19">19. días</option>
+                 <option value="20">20. días</option>
+                 <option value="21">21. días</option>
+                 <option value="22">22. días</option>
+                 <option value="23">23. días</option>
+                 <option value="24">24. días</option>
+                 <option value="25">25. días</option>
+                 <option value="26">26. días</option>
+                 <option value="27">27. días</option>
+                 <option value="28">28. días</option>
+                 <option value="29">29. días</option>
+                 <option value="30">30. días</option>
+                 <option value="31">31. días</option>
+                 </select>
+
+                 &nbsp;&nbsp;&nbsp;&nbsp;
+
+                 <label style="background-color: burlywood;">Períodos:</label> 
+                 <select id="mes">
+                  <option value=""></option>
+                  <option value="31">1. Mes</option>
+                  <option value="62">2. Meses</option>
+                  <option value="93">3. Meses</option>
+                  <option value="124">4. Meses</option>
+                  <option value="155">5. Meses</option>
+                  <option value="186">6. Meses</option>
+                  <option value="217">7. Meses</option>
+                  <option value="248">8. Meses</option>
+                  <option value="279">9. Meses</option>
+                  <option value="310">10. Meses</option>
+                  <option value="341">11. Meses</option>
+                  <option value="372">12. Meses</option>
+                  </select>
+
+                  &nbsp;&nbsp;&nbsp;&nbsp;
+
+                  <button type="button" onclick="calcular()">Calcular</button>
+
+                  <br> <br>
+
+                  <label id="labelconsola" style="background-color: blueviolet; font-size: 30px; color: bisque;">Información de Consola x aca</label>
+            
+        </body>
+    </body>
+</html>
+
