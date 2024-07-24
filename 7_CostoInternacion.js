@@ -12,51 +12,38 @@
 //
 // Construya un algoritmo que calcule e imprima el costo total que representa un paciente.
 
-
 function calcular() {
-    const afeccion = document.getElementById('afeccion').value;
-    const dia = document.getElementById('dia').value;
-    const mes = document.getElementById('mes').value;
-    const lbl = document.getElementById('labelconsola');
-    
-    let enfermedad = parseInt(afeccion);
-    let dias = parseInt(dia);
-    let meses = parseInt(mes);
-    let resultado;
-    
-    
-    if (isNaN(enfermedad)) {
-      console.warn('Es obligatorio seleccionar una Afección para el cálculo.');
-      lbl.innerHTML = "Es obligatorio seleccionar una Afección para el cálculo."
-      return;
-    }
+  const afeccion = document.getElementById("afeccion").value;
+  const dia = document.getElementById("dia").value;
+  const mes = document.getElementById("mes").value;
+  const lbl = document.getElementById("labelconsola");
 
-    else if (isNaN(dias) && isNaN(meses)) {
-        console.warn('Seleccionar una de las opciones (días o meses).');
-        lbl.innerHTML = "Seleccionar una de las opciones (días o meses)."
-        return;
-    }
-    
-    else if ( (enfermedad !== " ") && (dias !== " ") && (isNaN(meses)) ) {
-        resultado = enfermedad * dias 
-        console.log(`El costo de Internación es: $${resultado} pesos argentinos.`);
-         lbl.innerHTML = `El costo de Internación es: $${resultado} pesos argentinos.`
-    }
+  let enfermedad = parseInt(afeccion);
+  let dias = parseInt(dia);
+  let meses = parseInt(mes);
+  let resultado;
 
-    else if ((enfermedad !== " ") && (meses !== " ") && (isNaN(dias))) {
-        resultado = enfermedad * meses
-        console.log(`El costo de Internación es: $${resultado} pesos argentinos.`);
-         lbl.innerHTML = `El costo de Internación es: $${resultado} pesos argentinos.`
-    }
-
-    else if ((enfermedad !== "") && (dias !== "") && (meses !== "") ) {
-        console.log(`Solamente elegir una de las dos opciones (días o meses).`);
-         lbl.innerHTML = `Solamente elegir una de las dos opciones (días o meses).`
-    }
-    else {
-       
-        console.log(`Falla en la operación, vuelva a reintentar.`);
-        lbl.innerHTML = `Falla en la operación, vuelva a reintentar.`
-    }
-
+  if (isNaN(enfermedad)) {
+    console.warn("Es obligatorio seleccionar una Afección para el cálculo.");
+    lbl.innerHTML = "Es obligatorio seleccionar una Afección para el cálculo.";
+    return;
+  } else if (isNaN(dias) && isNaN(meses)) {
+    console.warn("Seleccionar una de las opciones (días o meses).");
+    lbl.innerHTML = "Seleccionar una de las opciones (días o meses).";
+    return;
+  } else if (enfermedad !== " " && dias !== " " && isNaN(meses)) {
+    resultado = enfermedad * dias;
+    console.log(`El costo de Internación es: $${resultado} pesos argentinos.`);
+    lbl.innerHTML = `El costo de Internación es: $${resultado} pesos argentinos.`;
+  } else if (enfermedad !== " " && meses !== " " && isNaN(dias)) {
+    resultado = enfermedad * meses;
+    console.log(`El costo de Internación es: $${resultado} pesos argentinos.`);
+    lbl.innerHTML = `El costo de Internación es: $${resultado} pesos argentinos.`;
+  } else if (enfermedad !== "" && dias !== "" && meses !== "") {
+    console.log(`Solamente elegir una de las dos opciones (días o meses).`);
+    lbl.innerHTML = `Solamente elegir una de las dos opciones (días o meses).`;
+  } else {
+    console.log(`Falla en la operación, vuelva a reintentar.`);
+    lbl.innerHTML = `Falla en la operación, vuelva a reintentar.`;
+  }
 }

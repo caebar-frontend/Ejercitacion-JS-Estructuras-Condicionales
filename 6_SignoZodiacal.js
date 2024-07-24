@@ -31,11 +31,10 @@ function procesar() {
     console.warn(
       "Falta seleccionar datos, o ingresar el día, el mes, u el año de nacimiento para procesar la información."
     );
-    lblinfoconsola.innerHTML = "Falta seleccionar datos, o ingresar el día, el mes, u el año de nacimiento para procesar la información.";
+    lblinfoconsola.innerHTML =
+      "Falta seleccionar datos, o ingresar el día, el mes, u el año de nacimiento para procesar la información.";
     return;
-  }
-  
-  else if (mes_elegido === "enero" && dia_elegido >= 20) {
+  } else if (mes_elegido === "enero" && dia_elegido >= 20) {
     console.log("Usted es del Signo de Acuario");
     lblinfoconsola.innerHTML = "Usted es del Signo de Acuario";
   } else if (mes_elegido === "febrero" && dia_elegido <= 18) {
@@ -47,7 +46,6 @@ function procesar() {
   } else if (mes_elegido === "enero" && dia_elegido <= 19) {
     console.log("Usted es del Signo de Capricornio");
     lblinfoconsola.innerHTML = "Usted es del Signo de Capricornio";
-
   } else if (mes_elegido === "febrero" && dia_elegido >= 19) {
     console.log("Usted es del Signo de Piscis");
     lblinfoconsola.innerHTML = "Usted es del Signo de Piscis";
@@ -112,6 +110,7 @@ function procesar() {
     console.warn(
       "Falta seleccionar datos para poder ser ejecutada completamente esta aplicación."
     );
-    lblinfoconsola.innerHTML = "Falta seleccionar datos para poder ser ejecutada completamente esta aplicación.";
+    lblinfoconsola.innerHTML =
+      "Falta seleccionar datos para poder ser ejecutada completamente esta aplicación.";
   }
 }

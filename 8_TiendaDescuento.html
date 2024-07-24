@@ -1,46 +1,65 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="Viewport" content="Width=device-width, initial-scale=1.0" />
-        <title>Costo-Internación</title>
-        <script src="8_TiendaDescuento.js"></script>
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Viewport" content="Width=device-width, initial-scale=1.0" />
+    <title>Costo-Internación</title>
+    <script src="8_TiendaDescuento.js"></script>
+  </head>
 
+  <body>
+    <header style="background-color: rgb(198, 246, 126)">
+      <h1>Tienda - Descuento</h1>
+      <h4>Monto final a abonar!!</h4>
+    </header>
+    <br /><br />
     <body>
-        <header style="background-color: rgb(198, 246, 126);">
-            <h1>Tienda - Descuento</h1>
-            <h4>Monto final a abonar!!</h4>
-        </header>
-        <br><br>
-        <body>
-            <label style="background-color: rgb(117, 249, 145);">Ingrese el pago:<input id="montoapagar" type="number" min="0" max="1000000000" placeholder="2000000"/></label>
-           
-                &nbsp;&nbsp;&nbsp;&nbsp;
+      <label style="background-color: rgb(117, 249, 145)"
+        >Ingrese el pago:<input
+          id="montoapagar"
+          type="number"
+          min="0"
+          max="1000000000"
+          placeholder="2000000"
+      /></label>
 
-                <label style="background-color: rgb(117, 222, 135);">Bolillas - Color:</label> 
-                 <select id="bolitascolores">
-                  <option value=""></option>
-                  <option value="0">Blanco</option>
-                  <option value="10">Verde</option>
-                  <option value="25">Amarilla</option>
-                  <option value="50">Azul</option>
-                  <option value="100">Naranja</option>
-                  </select>
+      &nbsp;&nbsp;&nbsp;&nbsp;
 
-                  &nbsp;&nbsp;&nbsp;&nbsp;
+      <label style="background-color: rgb(117, 222, 135)"
+        >Bolillas - Color:</label
+      >
+      <select id="bolitascolores">
+        <option value=""></option>
+        <option value="0">Blanco</option>
+        <option value="10">Verde</option>
+        <option value="25">Amarilla</option>
+        <option value="50">Azul</option>
+        <option value="100">Naranja</option>
+      </select>
 
-                  <label style="background-color: rgb(242, 139, 139);">Resultado:</label>&nbsp;<label id="labelresultado" style="background-color: darkgray;">* * * * * * *</label>
-                  
-                  &nbsp;&nbsp;&nbsp;&nbsp;
-                  
-                  <button type="button" onclick="recalculando()">Calcular</button>
+      &nbsp;&nbsp;&nbsp;&nbsp;
 
-                  <br> <br>
+      <label style="background-color: rgb(242, 139, 139)">Resultado:</label
+      >&nbsp;<label id="labelresultado" style="background-color: darkgray"
+        >* * * * * * *</label
+      >
 
-                  <label id="labelconsola" style="background-color: rgb(2, 101, 55); font-size: 30px; color: bisque;">Información de Consola x aca</label>
-            
-        </body>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+
+      <button type="button" onclick="recalculando()">Calcular</button>
+
+      <br />
+      <br />
+
+      <label
+        id="labelconsola"
+        style="
+          background-color: rgb(2, 101, 55);
+          font-size: 30px;
+          color: bisque;
+        "
+        >Información de Consola x aca</label
+      >
     </body>
+  </body>
 </html>
-
